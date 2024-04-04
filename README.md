@@ -28,7 +28,7 @@ To get the function calling setup running, you need to install the Python depend
 ```bash
 python -m venv fn_env
 source fn_env/bin/activate
-pip install -r function_calling/requirements.txt
+pip install -r requirements.txt
 ```
 
 Then, you need to add the functions you want the model to "call" in the `function_calling/tools.py` file. 
